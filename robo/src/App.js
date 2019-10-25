@@ -13,11 +13,11 @@ class App extends React.Component {
     this.state = {
       user: ""
     }
-    this.test = this.test.bind(this);
+    this.callback = this.callback.bind(this);
   }
 
   componentDidMount() {
-    this.test();
+    this.callback();
   }
 
   changeuserInfo() {
