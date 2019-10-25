@@ -1,0 +1,12 @@
+.UserDatacontainer{
+    margin: auto;
+    width: 40px;
+    display: flex;
+    margin-top: 2%;
+    flex-direction: column;
+    background-color: rgb(41, 130, 146);
+    justify-content: flex-start;
+    color: rgb(255, 230, 188);
+    border-radius: 0 2px 2px 0;
+    font-size: 1.8rem;
+}

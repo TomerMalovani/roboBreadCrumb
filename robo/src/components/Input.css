@@ -1,0 +1,85 @@
+.formcontainer{
+   
+    height:auto;
+    flex:1;
+    display: flex;
+    margin-top: 2%;
+    flex-direction: column;
+    background-color: rgb(41, 130, 146);
+    justify-content: flex-start;
+    color: rgb(255, 230, 188);
+    border-radius: 2px 0 2px 0;
+    font-size: 1.8rem;
+
+}
+
+label{
+  margin-top:2% 0 0;
+}
+
+.formcontainer input,select{
+  margin: 4.5% 0;
+  padding: 0.5rem;
+  font-weight: 500;
+  border: 1px solid wheat;
+  background-color:  rgb(27, 91, 102);
+   border-radius: 2px;
+  color: wheat;
+  margin: 2% 0 2% 0;
+}
+
+input:focus,select{
+  outline-color: rgb(243, 200, 119);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+.btnArea{
+  display: flex;
+  justify-content: left;
+  margin-top: 3%;
+
+}
+
+.ExpenseTypeBtn{
+  border: 1px solid rgb(255, 230, 188);
+  cursor: pointer;
+  margin-right:2% ;
+  color: rgb(255, 230, 188);
+  padding: 2%;
+  height: auto;
+  font-size: 1.3rem;
+  width: auto;
+  opacity: 0.8;
+  border-radius: 2px;
+}
+
+.ExpenseTypeBtn:hover{
+  opacity: 1;
+}
+
+.ExpenseTypeBtn:focus{
+  outline:none;
+}
+
+.Expense{
+    background-color: rgb(204, 80, 235);
+}
+
+.income{
+  background-color: rgb(44, 160, 180);
+}
+
+
+.submitBtn{
+  background-color: rgb(27, 91, 102);
+  border: 1px solid wheat;
+  width: 50%;
+  font-size: 1rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
